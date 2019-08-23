@@ -1,0 +1,6 @@
+ 
+pkg/
+src/
+calamares/
+/*.tar.gz
+*.pkg.tar.xz

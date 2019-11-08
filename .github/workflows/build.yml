@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+
+  schedule:
+    - cron:  '0 2 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux/base
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build packages
+      run: ./build.sh
+   
+    - uses: actions/upload-artifact@master
+      with:
+        name: packages
+        path: /tmp/packages

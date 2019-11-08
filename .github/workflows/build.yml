@@ -14,9 +14,12 @@ jobs:
       image: archlinux/base
 
     steps:
+    - name: Add user
+      run: useradd -m arched
+
     - uses: actions/checkout@v1
     - name: Build packages
-      run: ./build.sh
+      run: su - arched -c "./build.sh"
    
     - uses: actions/upload-artifact@master
       with:

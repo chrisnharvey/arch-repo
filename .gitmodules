@@ -1,0 +1,3 @@
+[submodule "firefox-appmenu"]
+	path = firefox-appmenu
+	url = https://aur.archlinux.org/firefox-appmenu.git

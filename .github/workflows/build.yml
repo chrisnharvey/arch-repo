@@ -19,7 +19,7 @@ jobs:
 
     - uses: actions/checkout@v1
     - name: Build packages
-      run: su - arched -c "./build.sh"
+      run: su - arched -c "${PWD}/build.sh"
    
     - uses: actions/upload-artifact@master
       with:

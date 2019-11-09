@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build packages
-      run: docker run -it -v /tmp/packages:/tmp/packages -v ${PWD}:/build -w /build --user arched chrisnharvey/arched /build/build.sh
+      run: docker run -v /tmp/packages:/tmp/packages -v ${PWD}:/build -w /build --user arched chrisnharvey/arched /build/build.sh
    
     - uses: actions/upload-artifact@master
       with:

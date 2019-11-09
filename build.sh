@@ -2,6 +2,8 @@
 
 SHELL=/bin/bash
 
+sudo pacman -Syy
+
 for i in * ; do
     if [ -d "$i" ]; then
         if [ -a "scripts/$i" ]; then

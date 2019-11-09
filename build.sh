@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SHELL=/bin/bash
+export SHELL=/bin/bash
 
 sudo pacman -Syy
 

@@ -1,9 +1,5 @@
 #!/bin/bash
 
-rm -rf ./packages
-rm -rf /tmp/packages
-mkdir /tmp/packages
-
 for i in * ; do
     if [ -d "$i" ]; then
         if [ -a "scripts/$i" ]; then

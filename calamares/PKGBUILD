@@ -6,7 +6,7 @@ arch=('x86_64')
 url='http://calamares.io/'
 license=('LGPL')
 depends=('qt5-svg' 'qt5-xmlpatterns' 'kconfig' 'ki18n' 'kcoreaddons' 'solid' 'kpackage' 'plasma-framework'
-         'yaml-cpp' 'parted' 'libatasmart' 'udisks2' 'polkit-qt5' 'kpmcore' 'kparts', 'boost') # 'pythonqt' 'libpwquality')
+         'yaml-cpp' 'parted' 'libatasmart' 'udisks2' 'polkit-qt5' 'kpmcore' 'kparts' 'boost') # 'pythonqt' 'libpwquality')
 makedepends=('extra-cmake-modules' 'git' 'qt5-tools')
 options=('debug' '!staticlibs')
 source=("git://github.com/calamares/calamares")

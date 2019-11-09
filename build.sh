@@ -9,7 +9,7 @@ for i in * ; do
         fi
 
         cd $i
-        makepkg -C -f -s -r --noconfirm
+        makepkg -C -f -s -r --noconfirm --skippgpcheck
         mv *.pkg.* /tmp/packages
         cd ..
     fi

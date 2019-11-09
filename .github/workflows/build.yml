@@ -13,8 +13,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    
+    - name: Copy repository
+      run: cp -R ${PWD} /repo
+      
+    - name: Change ownership
+      run: sudo chown 1000:1000 -R /repo
+      
     - name: Build packages
-      run: docker run -v /tmp/packages:/tmp/packages -v ${PWD}:/build -w /build --user arched chrisnharvey/arched /build/build.sh
+      run: docker run -v /tmp/packages:/tmp/packages -v /repo:/build -w /build --user arched chrisnharvey/arched /build/build.sh
    
     - uses: actions/upload-artifact@master
       with:

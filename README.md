@@ -1,3 +1,3 @@
-# ArchAngel Packages
+# Arched Packages
 
-PKGBUILD files for the ArchAngel repo
+PKGBUILD files for the Arched repo

@@ -10,8 +10,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container:
-      image: archlinux/base
 
     steps:
     - uses: actions/checkout@v1

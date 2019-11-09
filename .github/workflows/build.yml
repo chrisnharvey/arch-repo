@@ -14,6 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     
+    - name: Checkout submodules
+      run: git submodule update --init --recursive
+    
     - name: Copy repository
       run: sudo cp -R ${PWD} /repo
       

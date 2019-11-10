@@ -2,7 +2,7 @@
 
 export SHELL=/bin/bash
 
-sudo pacman -Syy
+sudo pacman -Syyu --noconfirm
 
 for i in * ; do
     if [ -d "$i" ]; then

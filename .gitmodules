@@ -16,3 +16,6 @@
 [submodule "discover-snap"]
 	path = discover-snap
 	url = https://aur.archlinux.org/discover-snap.git
+[submodule "thunderbird-appmenu"]
+	path = thunderbird-appmenu
+	url = https://aur.archlinux.org/thunderbird-appmenu.git

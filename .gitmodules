@@ -13,3 +13,6 @@
 [submodule "plasma5-applets-window-buttons"]
 	path = plasma5-applets-window-buttons
 	url = https://aur.archlinux.org/plasma5-applets-window-buttons.git
+[submodule "discover-snap"]
+	path = discover-snap
+	url = https://aur.archlinux.org/discover-snap.git

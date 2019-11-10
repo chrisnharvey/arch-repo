@@ -1,3 +1,6 @@
 [submodule "firefox-appmenu"]
 	path = firefox-appmenu
 	url = https://aur.archlinux.org/firefox-appmenu.git
+[submodule "snapd"]
+	path = snapd
+	url = https://aur.archlinux.org/snapd.git

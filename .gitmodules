@@ -4,3 +4,6 @@
 [submodule "snapd"]
 	path = snapd
 	url = https://aur.archlinux.org/snapd.git
+[submodule "yay"]
+	path = yay
+	url = https://aur.archlinux.org/yay.git

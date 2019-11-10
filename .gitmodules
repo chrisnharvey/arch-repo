@@ -19,3 +19,6 @@
 [submodule "thunderbird-appmenu"]
 	path = thunderbird-appmenu
 	url = https://aur.archlinux.org/thunderbird-appmenu.git
+[submodule "birdtray"]
+	path = birdtray
+	url = https://aur.archlinux.org/birdtray.git

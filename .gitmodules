@@ -25,3 +25,6 @@
 [submodule "ksuperkey"]
 	path = ksuperkey
 	url = https://aur.archlinux.org/ksuperkey.git
+[submodule "firefox-ubuntu-bin"]
+	path = firefox-ubuntu-bin
+	url = https://aur.archlinux.org/firefox-ubuntu-bin.git

@@ -20,11 +20,11 @@ jobs:
     - name: Copy repository
       run: sudo cp -R ${PWD} /repo
       
-    - name: Change ownership
-      run: sudo chown 1000:1000 -R /repo
-    
     - name: Create temporary packages directory
       run: mkdir /tmp/packages
+      
+    - name: Change ownership
+      run: sudo chown 1000:1000 -R /repo /tmp/packages
       
     - name: Build packages
       run: docker run -v /tmp/packages:/tmp/packages -v /repo:/build -w /build --user arched chrisnharvey/arched /build/build.sh

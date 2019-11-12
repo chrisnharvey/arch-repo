@@ -31,3 +31,6 @@
 [submodule "plasma-hud-git"]
 	path = plasma-hud-git
 	url = https://aur.archlinux.org/plasma-hud-git.git
+[submodule "thunderbird-ubuntu-bin"]
+	path = thunderbird-ubuntu-bin
+	url = https://aur.archlinux.org/thunderbird-ubuntu-bin.git

@@ -1,6 +1,3 @@
-[submodule "firefox-appmenu"]
-	path = firefox-appmenu
-	url = https://aur.archlinux.org/firefox-appmenu.git
 [submodule "snapd"]
 	path = snapd
 	url = https://aur.archlinux.org/snapd.git
@@ -13,18 +10,9 @@
 [submodule "plasma5-applets-window-buttons"]
 	path = plasma5-applets-window-buttons
 	url = https://aur.archlinux.org/plasma5-applets-window-buttons.git
-[submodule "discover-snap"]
-	path = discover-snap
-	url = https://aur.archlinux.org/discover-snap.git
-[submodule "thunderbird-appmenu"]
-	path = thunderbird-appmenu
-	url = https://aur.archlinux.org/thunderbird-appmenu.git
 [submodule "birdtray"]
 	path = birdtray
 	url = https://aur.archlinux.org/birdtray.git
-[submodule "ksuperkey"]
-	path = ksuperkey
-	url = https://aur.archlinux.org/ksuperkey.git
 [submodule "firefox-ubuntu-bin"]
 	path = firefox-ubuntu-bin
 	url = https://aur.archlinux.org/firefox-ubuntu-bin.git

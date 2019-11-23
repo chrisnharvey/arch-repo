@@ -18,3 +18,5 @@ for i in * ; do
         cd ..
     fi
 done
+
+repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.xz

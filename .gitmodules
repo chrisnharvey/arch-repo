@@ -22,3 +22,6 @@
 [submodule "thunderbird-ubuntu-bin"]
 	path = thunderbird-ubuntu-bin
 	url = https://aur.archlinux.org/thunderbird-ubuntu-bin.git
+[submodule "gamemode"]
+	path = gamemode
+	url = https://aur.archlinux.org/gamemode.git

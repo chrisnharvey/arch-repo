@@ -20,5 +20,3 @@ for i in * ; do
 done
 
 repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.xz
-
-cp -R /tmp/packages ./repo

@@ -24,6 +24,6 @@ jobs:
       name: Commit updates
       with:
         commit_message: Update submodules
-        branch: ${{ github.head_ref }}
+        branch: master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

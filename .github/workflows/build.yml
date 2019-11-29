@@ -16,6 +16,17 @@ jobs:
     
     - name: Checkout submodules
       run: git submodule update --init --recursive
+
+    - name: Update submodules
+      run: git submodule foreach git pull origin master
+
+    - uses: stefanzweifel/git-auto-commit-action@v2.3.0
+      name: Commit updates
+      with:
+        commit_message: Update submodules
+        branch: master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Copy repository
       run: sudo cp -R ${PWD} /repo

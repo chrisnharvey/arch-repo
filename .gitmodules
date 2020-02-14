@@ -25,3 +25,15 @@
 [submodule "gamemode"]
 	path = gamemode
 	url = https://aur.archlinux.org/gamemode.git
+[submodule "pamac-cli"]
+	path = pamac-cli
+	url = https://aur.archlinux.org/pamac-cli.git
+[submodule "pamac"]
+	path = pamac
+	url = https://aur.archlinux.org/pamac.git
+[submodule "pamac-qt-git"]
+	path = pamac-qt-git
+	url = https://aur.archlinux.org/pamac-qt-git.git
+[submodule "pamac-tray-appindicator"]
+	path = pamac-tray-appindicator
+	url = https://aur.archlinux.org/pamac-tray-appindicator.git

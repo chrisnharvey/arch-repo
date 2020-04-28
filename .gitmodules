@@ -37,3 +37,6 @@
 [submodule "pamac-tray-appindicator"]
 	path = pamac-tray-appindicator
 	url = https://aur.archlinux.org/pamac-tray-appindicator.git
+[submodule "plasma5-applets-window-appmenu"]
+	path = plasma5-applets-window-appmenu
+	url = https://aur.archlinux.org/plasma5-applets-window-appmenu.git

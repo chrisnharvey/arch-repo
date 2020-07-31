@@ -25,9 +25,6 @@
 [submodule "pamac-cli"]
 	path = pamac-cli
 	url = https://aur.archlinux.org/pamac-cli.git
-[submodule "pamac"]
-	path = pamac
-	url = https://aur.archlinux.org/pamac.git
 [submodule "pamac-qt-git"]
 	path = pamac-qt-git
 	url = https://aur.archlinux.org/pamac-qt-git.git

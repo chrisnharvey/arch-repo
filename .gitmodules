@@ -34,3 +34,6 @@
 [submodule "plasma5-applets-window-appmenu"]
 	path = plasma5-applets-window-appmenu
 	url = https://aur.archlinux.org/plasma5-applets-window-appmenu.git
+[submodule "pamac-aur"]
+	path = pamac-aur
+	url = https://aur.archlinux.org/pamac-aur.git

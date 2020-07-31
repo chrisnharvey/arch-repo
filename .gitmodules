@@ -1,9 +1,6 @@
 [submodule "snapd"]
 	path = snapd
 	url = https://aur.archlinux.org/snapd.git
-[submodule "yay"]
-	path = yay
-	url = https://aur.archlinux.org/yay.git
 [submodule "plasma5-applets-window-title"]
 	path = plasma5-applets-window-title
 	url = https://aur.archlinux.org/plasma5-applets-window-title.git

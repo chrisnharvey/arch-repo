@@ -37,3 +37,24 @@
 [submodule "pamac-aur"]
 	path = pamac-aur
 	url = https://aur.archlinux.org/pamac-aur.git
+[submodule "thunderbird-appmenu-bin"]
+	path = thunderbird-appmenu-bin
+	url = https://aur.archlinux.org/thunderbird-appmenu-bin.git
+[submodule "firefox-appmenu-bin"]
+	path = firefox-appmenu-bin
+	url = https://aur.archlinux.org/firefox-appmenu-bin.git
+[submodule "protonvpn-cli-ng"]
+	path = protonvpn-cli-ng
+	url = https://aur.archlinux.org/protonvpn-cli-ng.git
+[submodule "mkdocs"]
+	path = mkdocs
+	url = https://aur.archlinux.org/mkdocs.git
+[submodule "cutecom"]
+	path = cutecom
+	url = https://aur.archlinux.org/cutecom.git
+[submodule "mqttfx-bin"]
+	path = mqttfx-bin
+	url = https://aur.archlinux.org/mqttfx-bin.git
+[submodule "protonmail-bridge-bin"]
+	path = protonmail-bridge-bin
+	url = https://aur.archlinux.org/protonmail-bridge-bin.git

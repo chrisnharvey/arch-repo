@@ -52,6 +52,3 @@
 [submodule "protonmail-bridge-bin"]
 	path = packages/2/protonmail-bridge-bin
 	url = https://aur.archlinux.org/protonmail-bridge-bin.git
-[submodule "snapd-glib"]
-	path = packages/1/snapd-glib
-	url = https://aur.archlinux.org/snapd-glib.git

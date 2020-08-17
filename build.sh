@@ -21,9 +21,11 @@ for i in packages/* ; do
             cd $package
             makepkg -C -f -s -r --noconfirm --skippgpcheck
             mv *.pkg.* /tmp/packages
-            cd ../..
+            cd ..
 
-            repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.{xz,zst} 2>&1
+            repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.zst
         done
+
+        cd ../..
     fi
 done

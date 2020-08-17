@@ -4,7 +4,7 @@ export SHELL=/bin/bash
 
 sudo pacman -Syyu --noconfirm
 
-for i in * ; do
+for i in packages/* ; do
     if [ -d "$i" ]; then
         if [ -a "scripts/$i" ]; then
             cd scripts

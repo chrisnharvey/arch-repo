@@ -1,54 +1,57 @@
 [submodule "snapd"]
-	path = snapd
+	path = packages/snapd
 	url = https://aur.archlinux.org/snapd.git
 [submodule "plasma5-applets-window-title"]
-	path = plasma5-applets-window-title
+	path = packages/plasma5-applets-window-title
 	url = https://aur.archlinux.org/plasma5-applets-window-title.git
 [submodule "plasma5-applets-window-buttons"]
-	path = plasma5-applets-window-buttons
+	path = packages/plasma5-applets-window-buttons
 	url = https://aur.archlinux.org/plasma5-applets-window-buttons.git
 [submodule "birdtray"]
-	path = birdtray
+	path = packages/birdtray
 	url = https://aur.archlinux.org/birdtray.git
 [submodule "plasma-hud-git"]
-	path = plasma-hud-git
+	path = packages/plasma-hud-git
 	url = https://aur.archlinux.org/plasma-hud-git.git
 [submodule "gamemode"]
-	path = gamemode
+	path = packages/gamemode
 	url = https://aur.archlinux.org/gamemode.git
 [submodule "pamac-cli"]
-	path = pamac-cli
+	path = packages/pamac-cli
 	url = https://aur.archlinux.org/pamac-cli.git
 [submodule "pamac-qt-git"]
-	path = pamac-qt-git
+	path = packages/pamac-qt-git
 	url = https://aur.archlinux.org/pamac-qt-git.git
 [submodule "pamac-tray-appindicator"]
-	path = pamac-tray-appindicator
+	path = packages/pamac-tray-appindicator
 	url = https://aur.archlinux.org/pamac-tray-appindicator.git
 [submodule "plasma5-applets-window-appmenu"]
-	path = plasma5-applets-window-appmenu
+	path = packages/plasma5-applets-window-appmenu
 	url = https://aur.archlinux.org/plasma5-applets-window-appmenu.git
 [submodule "pamac-aur"]
-	path = pamac-aur
+	path = packages/pamac-aur
 	url = https://aur.archlinux.org/pamac-aur.git
 [submodule "thunderbird-appmenu-bin"]
-	path = thunderbird-appmenu-bin
+	path = packages/thunderbird-appmenu-bin
 	url = https://aur.archlinux.org/thunderbird-appmenu-bin.git
 [submodule "firefox-appmenu-bin"]
-	path = firefox-appmenu-bin
+	path = packages/firefox-appmenu-bin
 	url = https://aur.archlinux.org/firefox-appmenu-bin.git
 [submodule "protonvpn-cli-ng"]
-	path = protonvpn-cli-ng
+	path = packages/protonvpn-cli-ng
 	url = https://aur.archlinux.org/protonvpn-cli-ng.git
 [submodule "mkdocs"]
-	path = mkdocs
+	path = packages/mkdocs
 	url = https://aur.archlinux.org/mkdocs.git
 [submodule "cutecom"]
-	path = cutecom
+	path = packages/cutecom
 	url = https://aur.archlinux.org/cutecom.git
 [submodule "mqttfx-bin"]
-	path = mqttfx-bin
+	path = packages/mqttfx-bin
 	url = https://aur.archlinux.org/mqttfx-bin.git
 [submodule "protonmail-bridge-bin"]
-	path = protonmail-bridge-bin
+	path = packages/protonmail-bridge-bin
 	url = https://aur.archlinux.org/protonmail-bridge-bin.git
+[submodule "snapd-glib"]
+	path = packages/snapd-glib
+	url = https://aur.archlinux.org/snapd-glib.git

@@ -1,57 +1,57 @@
 [submodule "snapd"]
-	path = packages/snapd
+	path = packages/2/snapd
 	url = https://aur.archlinux.org/snapd.git
 [submodule "plasma5-applets-window-title"]
-	path = packages/plasma5-applets-window-title
+	path = packages/2/plasma5-applets-window-title
 	url = https://aur.archlinux.org/plasma5-applets-window-title.git
 [submodule "plasma5-applets-window-buttons"]
-	path = packages/plasma5-applets-window-buttons
+	path = packages/2/plasma5-applets-window-buttons
 	url = https://aur.archlinux.org/plasma5-applets-window-buttons.git
 [submodule "birdtray"]
-	path = packages/birdtray
+	path = packages/2/birdtray
 	url = https://aur.archlinux.org/birdtray.git
 [submodule "plasma-hud-git"]
-	path = packages/plasma-hud-git
+	path = packages/2/plasma-hud-git
 	url = https://aur.archlinux.org/plasma-hud-git.git
 [submodule "gamemode"]
-	path = packages/gamemode
+	path = packages/2/gamemode
 	url = https://aur.archlinux.org/gamemode.git
 [submodule "pamac-cli"]
-	path = packages/pamac-cli
+	path = packages/2/pamac-cli
 	url = https://aur.archlinux.org/pamac-cli.git
 [submodule "pamac-qt-git"]
-	path = packages/pamac-qt-git
+	path = packages/2/pamac-qt-git
 	url = https://aur.archlinux.org/pamac-qt-git.git
 [submodule "pamac-tray-appindicator"]
-	path = packages/pamac-tray-appindicator
+	path = packages/2/pamac-tray-appindicator
 	url = https://aur.archlinux.org/pamac-tray-appindicator.git
 [submodule "plasma5-applets-window-appmenu"]
-	path = packages/plasma5-applets-window-appmenu
+	path = packages/2/plasma5-applets-window-appmenu
 	url = https://aur.archlinux.org/plasma5-applets-window-appmenu.git
 [submodule "pamac-aur"]
-	path = packages/pamac-aur
+	path = packages/2/pamac-aur
 	url = https://aur.archlinux.org/pamac-aur.git
 [submodule "thunderbird-appmenu-bin"]
-	path = packages/thunderbird-appmenu-bin
+	path = packages/2/thunderbird-appmenu-bin
 	url = https://aur.archlinux.org/thunderbird-appmenu-bin.git
 [submodule "firefox-appmenu-bin"]
-	path = packages/firefox-appmenu-bin
+	path = packages/2/firefox-appmenu-bin
 	url = https://aur.archlinux.org/firefox-appmenu-bin.git
 [submodule "protonvpn-cli-ng"]
-	path = packages/protonvpn-cli-ng
+	path = packages/2/protonvpn-cli-ng
 	url = https://aur.archlinux.org/protonvpn-cli-ng.git
 [submodule "mkdocs"]
-	path = packages/mkdocs
+	path = packages/2/mkdocs
 	url = https://aur.archlinux.org/mkdocs.git
 [submodule "cutecom"]
-	path = packages/cutecom
+	path = packages/2/cutecom
 	url = https://aur.archlinux.org/cutecom.git
 [submodule "mqttfx-bin"]
-	path = packages/mqttfx-bin
+	path = packages/2/mqttfx-bin
 	url = https://aur.archlinux.org/mqttfx-bin.git
 [submodule "protonmail-bridge-bin"]
-	path = packages/protonmail-bridge-bin
+	path = packages/2/protonmail-bridge-bin
 	url = https://aur.archlinux.org/protonmail-bridge-bin.git
 [submodule "snapd-glib"]
-	path = packages/snapd-glib
+	path = packages/1/snapd-glib
 	url = https://aur.archlinux.org/snapd-glib.git

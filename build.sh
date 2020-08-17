@@ -6,16 +6,20 @@ sudo pacman -Syyu --noconfirm
 
 for i in packages/* ; do
     if [ -d "$i" ]; then
-        if [ -a "scripts/$i" ]; then
-            cd scripts
-            ./$i
-            cd ../
-        fi
+        cd ./$i
 
-        cd $i
-        makepkg -C -f -s -r --noconfirm --skippgpcheck
-        mv *.pkg.* /tmp/packages
-        cd ..
+        for package in * ; do
+            if [ -a "scripts/$package" ]; then
+                cd scripts
+                ./$package
+                cd ../$i/$package
+            fi
+
+            cd $package
+            makepkg -C -f -s -r --noconfirm --skippgpcheck
+            mv *.pkg.* /tmp/packages
+            cd ../..
+        done
     fi
 done
 

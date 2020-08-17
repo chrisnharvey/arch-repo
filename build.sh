@@ -22,8 +22,8 @@ for i in packages/* ; do
             makepkg -C -f -s -r --noconfirm --skippgpcheck
             mv *.pkg.* /tmp/packages
             cd ../..
+
+            repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.{xz,zst} 2>&1
         done
     fi
 done
-
-repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.{xz,zst} 2>&1

@@ -3,12 +3,15 @@
 export SHELL=/bin/bash
 
 sudo pacman -Syyu --noconfirm
+sudo cat stubs/local-repo >> /etc/pacman.conf
 
 for i in packages/* ; do
     if [ -d "$i" ]; then
         cd ./$i
 
         for package in * ; do
+            sudo pacman -Syy
+
             if [ -a "scripts/$package" ]; then
                 cd scripts
                 ./$package

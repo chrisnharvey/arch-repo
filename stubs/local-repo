@@ -1,0 +1,3 @@
+[arched]
+SigLevel = Never
+Server = file:///tmp/packages

@@ -3,7 +3,7 @@
 export SHELL=/bin/bash
 
 sudo pacman -Syyu --noconfirm
-sudo cat stubs/local-repo >> /etc/pacman.conf
+cat stubs/local-repo | sudo tee -a /etc/pacman.conf
 
 for i in packages/* ; do
     if [ -d "$i" ]; then

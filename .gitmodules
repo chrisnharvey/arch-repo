@@ -61,3 +61,6 @@
 [submodule "python-mdx-gh-links"]
 	path = packages/1/python-mdx-gh-links
 	url = https://aur.archlinux.org/python-mdx-gh-links.git
+[submodule "snapd-glib"]
+	path = packages/1/snapd-glib
+	url = https://aur.archlinux.org/snapd-glib.git

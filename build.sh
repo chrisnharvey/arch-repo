@@ -19,4 +19,4 @@ for i in * ; do
     fi
 done
 
-repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.{xz,zst}
+repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.{xz,zst} 2>&1

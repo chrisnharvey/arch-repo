@@ -1,0 +1,15 @@
+diff --git a/PKGBUILD b/PKGBUILD
+index 776aa6d..04ce2a5 100644
+--- a/PKGBUILD
++++ b/PKGBUILD
+@@ -1,8 +1,8 @@
+ # Contributor: Zeph <zeph33@gmail.com>
+ # Maintainer: Zeph <zeph33@gmail.com>
+ # https://gitlab.manjaro.org/packages/extra/pamac
+-ENABLE_FLATPAK=0
+-ENABLE_SNAPD=0
++ENABLE_FLATPAK=1
++ENABLE_SNAPD=1
+ 
+ pkgname=pamac-aur
+ pkgver=9.5.7

@@ -2,16 +2,17 @@
 
 export SHELL=/bin/bash
 
-sudo pacman -Syyu --noconfirm
+repo-add -s /tmp/packages/arched.db.tar.xz
+
 cat stubs/local-repo | sudo tee -a /etc/pacman.conf
+
+sudo pacman -Syyu --noconfirm
 
 for i in packages/* ; do
     if [ -d "$i" ]; then
         cd ./$i
 
         for package in * ; do
-            sudo pacman -Syy
-
             if [ -a "scripts/$package" ]; then
                 cd scripts
                 ./$package
@@ -24,6 +25,8 @@ for i in packages/* ; do
             cd ..
 
             repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.zst
+
+            sudo pacman -Syy
         done
 
         cd ../..

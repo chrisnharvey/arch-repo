@@ -79,3 +79,9 @@
 [submodule "brave-bin"]
 	path = packages/2/brave-bin
 	url = https://aur.archlinux.org/brave-bin.git
+[submodule "keybase-bin"]
+	path = packages/2/keybase-bin
+	url = https://aur.archlinux.org/keybase-bin.git
+[submodule "plasma5-applets-window-appmenu-git"]
+	path = packages/2/plasma5-applets-window-appmenu-git
+	url = https://aur.archlinux.org/plasma5-applets-window-appmenu-git.git

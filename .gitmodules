@@ -76,3 +76,6 @@
 [submodule "yay"]
 	path = packages/2/yay
 	url = https://aur.archlinux.org/yay.git
+[submodule "brave-bin"]
+	path = packages/2/brave-bin
+	url = https://aur.archlinux.org/brave-bin.git

@@ -39,11 +39,6 @@ jobs:
       
     - name: Build packages
       run: docker run -v /tmp/packages:/tmp/packages -v /repo:/build -w /build --user arched chrisnharvey/arched /build/build.sh
-   
-    - uses: actions/upload-artifact@master
-      with:
-        name: packages
-        path: /tmp/packages
         
     - name: Copy built packages back into repository directory
       run: sudo cp -R /tmp/packages ${PWD}

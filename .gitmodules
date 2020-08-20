@@ -64,3 +64,18 @@
 [submodule "snapd-glib"]
 	path = packages/1/snapd-glib
 	url = https://aur.archlinux.org/snapd-glib.git
+[submodule "ungoogled-chromium"]
+	path = packages/2/ungoogled-chromium
+	url = https://aur.archlinux.org/ungoogled-chromium.git
+[submodule "zfs-utils"]
+	path = packages/1/zfs-utils
+	url = https://aur.archlinux.org/zfs-utils.git
+[submodule "zfs-dkms"]
+	path = packages/2/zfs-dkms
+	url = https://aur.archlinux.org/zfs-dkms.git
+[submodule "plymouth"]
+	path = packages/1/plymouth
+	url = https://aur.archlinux.org/plymouth.git
+[submodule "yay"]
+	path = packages/2/yay
+	url = https://aur.archlinux.org/yay.git

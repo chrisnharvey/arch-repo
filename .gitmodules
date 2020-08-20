@@ -64,9 +64,6 @@
 [submodule "snapd-glib"]
 	path = packages/1/snapd-glib
 	url = https://aur.archlinux.org/snapd-glib.git
-[submodule "ungoogled-chromium"]
-	path = packages/2/ungoogled-chromium
-	url = https://aur.archlinux.org/ungoogled-chromium.git
 [submodule "zfs-utils"]
 	path = packages/1/zfs-utils
 	url = https://aur.archlinux.org/zfs-utils.git

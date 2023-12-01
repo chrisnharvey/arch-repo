@@ -2,7 +2,7 @@
 
 export SHELL=/bin/bash
 
-repo-add -s /tmp/packages/arched.db.tar.xz
+repo-add -s /tmp/packages/chrisnharvey.db.tar.xz
 
 cat stubs/local-repo | sudo tee -a /etc/pacman.conf
 
@@ -24,7 +24,7 @@ for i in packages/* ; do
             mv *.pkg.* /tmp/packages
             cd ..
 
-            repo-add -s /tmp/packages/arched.db.tar.xz /tmp/packages/*.pkg.tar.zst
+            repo-add -s /tmp/packages/chrisnharvey.db.tar.xz /tmp/packages/*.pkg.tar.zst
 
             sudo pacman -Syy
         done

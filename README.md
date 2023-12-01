@@ -1,2 +1,2 @@
-# Arched Packages
+# Arch Repo
 

@@ -1,6 +1,6 @@
-[submodule "packages/1/libfprint-2-tod1-broadcom"]
-	path = packages/1/libfprint-2-tod1-broadcom
-	url = https://aur.archlinux.org/libfprint-2-tod1-broadcom.git
 [submodule "packages/1/libfprint-tod-git"]
 	path = packages/1/libfprint-tod-git
 	url = https://aur.archlinux.org/libfprint-tod-git.git
+[submodule "packages/2/libfprint-2-tod1-broadcom"]
+	path = packages/2/libfprint-2-tod1-broadcom
+	url = https://aur.archlinux.org/libfprint-2-tod1-broadcom.git

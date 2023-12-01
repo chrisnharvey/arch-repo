@@ -1,3 +1,0 @@
-#!/bin/bash
-
-patch -ruN -d ../packages/2/pamac-aur < ../patches/pamac-aur/flatpak-and-snap.patch
